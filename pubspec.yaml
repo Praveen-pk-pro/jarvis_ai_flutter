@@ -1,0 +1,25 @@
+name: jarvis_ai_flutter
+description: A futuristic voice AI assistant
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  speech_to_text: ^6.4.1
+  flutter_tts: ^3.6.3
+  http: ^1.4.0
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  lottie: ^2.2.0
+
+flutter:
+  assets:
+    - assets/animations/jarvis.json
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+        
